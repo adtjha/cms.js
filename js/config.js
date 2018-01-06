@@ -16,8 +16,11 @@ $(function() {
 
     // Navigation items
     siteNavItems: [
-      { name: 'Github', href: 'https://github.com/adtjha', newWindow: false},
-      { name: 'About'}
+      { name: 'Github', href: 'https://github.com/adtjha', newWindow: true},
+      { name: 'About'},
+      { name: 'Project'},
+      { name: 'Contact'},
+      { name: 'Resume'}
     ],
 
     // Posts folder name

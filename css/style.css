@@ -1,1 +1,7 @@
 /* Custom Styles */
+.postShadow{
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background: #f7fbff;
+  box-shadow: inset 0px 2px 5px #000, inset 0px 2px 5px #000;
+}

@@ -130,11 +130,13 @@ var CMS = {
         var tpl = $(document.getElementById('post-template')).html(),
           $tpl = $(tpl);
 
+
         $tpl.find('.post-title').html(post.title);
         $tpl.find('.post-date').html((post.date.getUTCMonth() + 1) + '/' + post.date.getUTCDate() + '/' +  post.date.getUTCFullYear());
         $tpl.find('.post-content').html(post.contentData);
 
         CMS.settings.mainContainer.html($tpl).hide().fadeIn(CMS.settings.fadeSpeed);
+        $tpl.find('.post').addClass('postShadow');
       }
     });
     CMS.renderFooter();
